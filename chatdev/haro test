@@ -1,0 +1,9 @@
+git clone https://github.com/OpenBMB/ChatDev.git
+conda create -n ChatDev_conda_env python=3.9 -y
+conda activate ChatDev_conda_env
+cd ChatDev
+pip3 install -r requirements.txt
+$env:OPENAI_API_KEY="ec605d6028f64b48b1087d3dbf520067"
+  python run.py --task "[automated blog posts]" --name "[Haro Pro]"
+  cd WareHouse/project_name_DefaultOrganization_timestamp
+python main.py
